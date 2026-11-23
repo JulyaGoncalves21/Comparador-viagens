@@ -1,0 +1,22 @@
+{
+  "allOriginalDataFilesByteIdentical": true,
+  "files": {
+    "combinations.json": true,
+    "destinations.json": true,
+    "events.json": true,
+    "history.json": true,
+    "lodgings.json": true,
+    "meta.json": true,
+    "properties.json": true,
+    "research-two-summary.json": true,
+    "research.json": true,
+    "routes.json": true,
+    "sources.json": true,
+    "transfers.json": true,
+    "transport.json": true,
+    "updates.json": true,
+    "validation.json": true
+  },
+  "initialRuntimeBytes": 2703484,
+  "originalDataBytes": 10970865
+}

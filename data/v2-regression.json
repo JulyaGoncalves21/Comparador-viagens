@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-11-23T19:09:17.184766+00:00",
+  "unitTestsPassed": 12,
+  "inheritedBrowserScenariosPassed": 19,
+  "v2BrowserScenariosPassed": 11,
+  "originalDataFilesByteIdentical": 15,
+  "publicationStatus": "blocked: repository creation requires authenticated GitHub API; no CLI/API credential available; connected tools do not expose repository creation",
+  "originalSiteUnchanged": true
+}

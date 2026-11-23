@@ -1,0 +1,17 @@
+{
+  "passed": 11,
+  "checks": [
+    "lazy loading: full historical/source/combinations bases excluded initially",
+    "one card per property, no transport Cartesian product",
+    "four groups preserved",
+    "all twelve destinations populated",
+    "original property and transport links open safely",
+    "modal supports independent flight selection and recalculates costs",
+    "comparison keeps three independent selections",
+    "historical and research pages load on demand",
+    "new dates do not validate old fares",
+    "mobile cards and modal without body overflow",
+    "no JavaScript runtime errors"
+  ],
+  "runtimeErrors": []
+}
