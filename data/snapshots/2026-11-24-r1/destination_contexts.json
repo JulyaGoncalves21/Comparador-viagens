@@ -1,0 +1,344 @@
+{
+  "rio": {
+    "official2027": "Riotur cadastro de blocos consultado; rota/hora individual e operaçãoespecial ainda dependem publicação.",
+    "traditionalReference": "ZonaSul:Copacabana/Botafogo/Flamengo/Ipanema; Centro e Sambódromo têm percursos próprios.",
+    "night": "Metrô/acessos podem operar diferente do serviço especial; não presumir24h. Gigóia exige barco ao deck exato e espera reduzida madrugada. ParqueOlímpico exige BRT/carro adicional ao metrô.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://casabloco.com/programacao/",
+        "queriedAt": "2026-11-24T14:18:51.231267+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://baianasystem.com.br/agenda/",
+        "queriedAt": "2026-11-24T14:18:52.736417+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://carnaval.rio/",
+        "queriedAt": "2026-11-24T14:18:54.582626+00:00"
+      },
+      {
+        "title": "Operação especial2027 e tarifas futuras permanecem pendentes quando não publicadas explicitamente. HTTP obtido, mas página acessív",
+        "url": "https://www.metrorio.com.br/Estacoes",
+        "queriedAt": "2026-11-24T14:18:57.306452+00:00"
+      },
+      {
+        "title": "Operação especial2027 e tarifas futuras permanecem pendentes quando não publicadas explicitamente. HTTP obtido, mas página acessív",
+        "url": "https://mobi-rio.rio.br/",
+        "queriedAt": "2026-11-24T14:18:57.650870+00:00"
+      },
+      {
+        "title": "Operação especial2027 e tarifas futuras permanecem pendentes quando não publicadas explicitamente. HTTP obtido, mas página acessív",
+        "url": "https://www.ilhadagigoia.com.br/como-chegar.html",
+        "queriedAt": "2026-11-24T14:18:57.819689+00:00"
+      }
+    ],
+    "officialConfirmedEvents": [
+      {
+        "name": "Grupo Especial — arquibancada inteira",
+        "date": "2027-02-07",
+        "venue": "Sambódromo da Marquês de Sapucaí",
+        "url": "https://liesa.org.br/noticias/260909-ingressos.html"
+      },
+      {
+        "name": "Grupo Especial — cadeira individual",
+        "date": "2027-02-08",
+        "venue": "Sambódromo da Marquês de Sapucaí",
+        "url": "https://www.ticketmaster.com.br/event/riocarnaval"
+      },
+      {
+        "name": "Grupo Especial — frisa para seis pessoas",
+        "date": "2027-02-09",
+        "venue": "Sambódromo da Marquês de Sapucaí",
+        "url": "https://liesa.org.br/noticias/260909-ingressos.html"
+      },
+      {
+        "name": "Série Ouro — arquibancada lado par",
+        "date": "2027-02-05",
+        "venue": "Sambódromo da Marquês de Sapucaí",
+        "url": "https://www.ticketmaster.com.br/event/rio-carnaval-2027-arquibancadas-serie-ouro-lado-par"
+      },
+      {
+        "name": "Série Ouro — cadeira individual",
+        "date": "2027-02-06",
+        "venue": "Sambódromo da Marquês de Sapucaí",
+        "url": "https://www.ticketmaster.com.br/event/rio-carnaval-2027-cadeiras-individuais-12-serie-ouro"
+      },
+      {
+        "name": "Nosso Camarote — Série Ouro",
+        "date": "2027-02-05",
+        "venue": "Sambódromo da Marquês de Sapucaí",
+        "url": "https://nossocamarote.com.br/"
+      }
+    ]
+  },
+  "salvador": {
+    "official2027": "EditalOuroNegro2027 menciona7circuitos; não confirma grade individual.",
+    "traditionalReference": "DodôBarra–Ondina,OsmarCampoGrande,BatatinhaPelourinho.",
+    "night": "SSA→shuttle→metrô não chega àBarra/Ondina; último trecho e retorno madrugada precisam cotação. Barreiras de trânsito alteram ponto de embarque.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.salvadordabahia.com/agenda/",
+        "queriedAt": "2026-11-24T14:18:50.660513+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://home.centraldocarnaval.com.br/",
+        "queriedAt": "2026-11-24T14:18:50.746375+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://home.centraldocarnaval.com.br/blocos/bloco-coruja-2027.html",
+        "queriedAt": "2026-11-24T14:18:50.775432+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.camarotesalvador.com.br/noticias/",
+        "queriedAt": "2026-11-24T14:18:50.944180+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.camarotesalvador.com.br/",
+        "queriedAt": "2026-11-24T14:18:50.963782+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.salvadordabahia.com/eventos/festival-virada-salvador-2027-confira-programacao-completa/",
+        "queriedAt": "2026-11-24T14:18:51.106208+00:00"
+      }
+    ],
+    "officialConfirmedEvents": [
+      {
+        "name": "Bloco Camaleão — Bell Marques",
+        "date": "2027-02-07",
+        "venue": "Circuito Dodô — Barra/Ondina",
+        "url": "https://vendas.centraldocarnaval.com.br/Produtos/50170/BLOCOS2027"
+      },
+      {
+        "name": "Bloco Camaleão — Bell Marques",
+        "date": "2027-02-08",
+        "venue": "Circuito Dodô — Barra/Ondina",
+        "url": "https://vendas.centraldocarnaval.com.br/Produtos/50170/BLOCOS2027"
+      },
+      {
+        "name": "Bloco Camaleão — Bell Marques",
+        "date": "2027-02-09",
+        "venue": "Circuito Dodô — Barra/Ondina",
+        "url": "https://vendas.centraldocarnaval.com.br/Produtos/50170/BLOCOS2027"
+      },
+      {
+        "name": "Bloco Coruja — Ivete Sangalo",
+        "date": "2027-02-06",
+        "venue": "Circuito Dodô — Barra/Ondina",
+        "url": "https://vendas.ticketmaker.com.br/evento/carnaval-2027/6716-3"
+      },
+      {
+        "name": "Bloco Coruja — Ivete Sangalo",
+        "date": "2027-02-08",
+        "venue": "Circuito Dodô — Barra/Ondina",
+        "url": "https://vendas.ticketmaker.com.br/evento/carnaval-2027/6716-3"
+      },
+      {
+        "name": "Camarote Club — acesso Feminino",
+        "date": "2027-02-05",
+        "venue": "Clube Espanhol",
+        "url": "https://vendas.camarotecluboficial.com.br/?cl=1&ct=50070"
+      }
+    ]
+  },
+  "bh": {
+    "official2027": "Belotur informa período23/01–14/02; trajetos individuais ainda exigem grade.",
+    "traditionalReference": "Centro/Savassi/PraçaLiberdade são referências, não concentração de bloco confirmado.",
+    "night": "Confins→executivo→ÁlvaresCabral→hotel é separado de deslocamento a bloco; conferir último executivo e operação de ônibus.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://baianasystem.com.br/agenda/",
+        "queriedAt": "2026-11-24T14:18:52.824447+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.rbxeventos.com.br/carnaval-dos-sonhos-2027",
+        "queriedAt": "2026-11-24T14:18:53.897123+00:00"
+      },
+      {
+        "title": "Portal oficial Carnaval2027; PraçaLiberdade/Savassi/Centro são referências urbanas, não concentração garantida de bloco. HTTP obti",
+        "url": "https://portalbelohorizonte.com.br/carnaval/",
+        "queriedAt": "2026-11-24T14:18:43.493169+00:00"
+      },
+      {
+        "title": "Período oficial23/01–14/02/2027; grade e trajeto individual exigem confirmação. HTTP obtido, mas página acessível não comprova cot",
+        "url": "https://prefeitura.pbh.gov.br/noticias/cadastramento-de-blocos-para-o-carnaval-de-bh-2027-comeca-nesta-terca-feira-18",
+        "queriedAt": "2026-11-24T14:18:43.483171+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  },
+  "recife": {
+    "official2027": "ConvocatóriaCicloCarnavalesco2027 não equivale a grade completa.",
+    "traditionalReference": "MarcoZero/Arsenal/RecifeAntigo e SítioHistóricoOlinda.",
+    "night": "BoaViagem→Olinda/RecifeAntigo exige deslocamentos por dia; corredores/ruas restritas e pontos de retorno só com plano operacional.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.bilheteriadigital.com/enquanto-isso-na-sala-da-justica-2027-22-de-janeiro",
+        "queriedAt": "2026-11-24T14:18:52.664223+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://baianasystem.com.br/agenda/",
+        "queriedAt": "2026-11-24T14:18:52.859862+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.carvalheira.com.br/eventos/",
+        "queriedAt": "2026-11-24T14:18:52.981577+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www2.recife.pe.gov.br/",
+        "queriedAt": "2026-11-24T14:18:56.493926+00:00"
+      },
+      {
+        "title": "Operação especial2027 e tarifas futuras permanecem pendentes quando não publicadas explicitamente. HTTP obtido, mas página acessív",
+        "url": "https://culturarecife2.com.br/public/documentos/edital_home_137_convocatoria_ciclo_carnavalesco_2027/CONVOCATORIA_CICLO_CARNAVALESCO_2027.pdf",
+        "queriedAt": "2026-11-24T14:18:58.029665+00:00"
+      }
+    ],
+    "officialConfirmedEvents": [
+      {
+        "name": "Galo da Madrugada — desfile2027",
+        "date": "2027-02-06",
+        "venue": "Concentração: Forte das Cinco Pontas",
+        "url": "https://galodamadrugada.com.br/galo-da-madrugada-homenageia-a-figura-do-caboclo-de-lanca-no-carnaval-2027/"
+      }
+    ]
+  },
+  "natal": {
+    "official2027": "ProjetoCarnaval2027 encontrado noMapaCultural; não confirma datas/horas/polos.",
+    "traditionalReference": "Redinha,Ribeira,PontaNegra são referências tradicionais.",
+    "night": "AeroportoSãoGonçalo→hotel e viagem entre polos separados; último serviço e retorno noturno pendentes.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.natal.rn.gov.br/",
+        "queriedAt": "2026-11-24T14:18:54.848012+00:00"
+      },
+      {
+        "title": "Projeto CarnavalNatal2027 é planejamento; Ribeira/Redinha/PontaNegra são polos tradicionais até grade publicada. HTTP obtido, mas ",
+        "url": "https://mapacultural.natal.rn.gov.br/projetos/",
+        "queriedAt": "2026-11-24T14:18:43.528146+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  },
+  "aracaju": {
+    "official2027": "PlanoEstratégico municipal prevê2027; não equivale a grade.",
+    "traditionalReference": "Atalaia/Centro/bairros; PréCaju é outro evento e não presumido em fevereiro.",
+    "night": "AJU→hotel e retorno de blocos são etapas distintas; operação/valor de aplicativo não cotados.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.aracaju.se.gov.br/",
+        "queriedAt": "2026-11-24T14:18:54.589939+00:00"
+      },
+      {
+        "title": "Plano municipal inclui2027; não confirma data/horário/polo. Atalaia e Centro exigem deslocamento entre bairros. HTTP obtido, mas p",
+        "url": "https://transparencia.aracaju.se.gov.br/wp-content/uploads/ppa-ldo-loa/Planejamento_Estrategico_2025_2028.pdf",
+        "queriedAt": "2026-11-24T14:18:43.531150+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  },
+  "maceio": {
+    "official2027": "Não foi verificada grade pública oficial integral para05–10fev2027.",
+    "traditionalReference": "Jaraguá/Pajuçara/PontaVerde; prévias em janeiro não transferidas para fevereiro.",
+    "night": "MCZ→litoral→hotel e ida aos polos precisam orçamento; não tratar aeroporto como localizado na orla.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://maceio.al.gov.br/",
+        "queriedAt": "2026-11-24T14:18:54.598938+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  },
+  "arraial": {
+    "official2027": "DiárioOficial19/11 menciona propostas preparatórias sujeitas a licenciamento.",
+    "traditionalReference": "Praças/bairros somente após anúncio.",
+    "night": "GIG/SDU→ônibus/transfer intermunicipal→Arraial→hotel; CFB é aeroporto diferente. Confirmar conexão, espera, trânsito e retorno cedo.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.arraial.rj.gov.br/",
+        "queriedAt": "2026-11-24T14:18:54.585942+00:00"
+      },
+      {
+        "title": "DiárioOficial19/11/2026: propostas preparatóriasCarnaval2027 dependem licenciamento, não grade confirmada. HTTP obtido, mas página",
+        "url": "https://portal.arraial.rj.gov.br/diariooficial/diariopdf?id=416",
+        "queriedAt": "2026-11-24T14:18:43.558653+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  },
+  "jeri": {
+    "official2027": "Não verificada grade pública integral. TTS é taxa municipal, não ingresso de festa.",
+    "traditionalReference": "Vila e praia sem presumir palco/artista.",
+    "night": "JJD→4x4→vila é diferente deFOR→estrada→Jijoca→4x4→vila. Retorno madrugador e veículo autorizado precisam reserva e orçamento.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://adejeri.jijocadejericoacoara.ce.gov.br/index.php/publicacoes/noticias/visualizar/1999",
+        "queriedAt": "2026-11-24T14:18:53.856165+00:00"
+      },
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.jijocadejericoacoara.ce.gov.br/",
+        "queriedAt": "2026-11-24T14:18:55.345959+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  },
+  "lima": {
+    "official2027": "Portal oficial turístico consultado; não confirmaCarnaval05–10fev.",
+    "traditionalReference": "Centro/Miraflores/Barranco são bairros de visita, não polosCarnaval2027.",
+    "night": "NovoLIM→AirportExpressMiraflores→imóvel; hospedagemCentro exige ligaçãoadicional. Conferir horário e segurança do embarque.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.peru.travel/",
+        "queriedAt": "2026-11-24T14:18:56.546923+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  },
+  "santiago": {
+    "official2027": "PortalChileTravel consultado; não confirmaCarnaval05–10fev.",
+    "traditionalReference": "Centro/Lastarria/Bellavista são áreas de visita, não polosCarnaval2027.",
+    "night": "SCL→ônibusautorizado→República/Pajaritos→metrô/últimotrecho; conferir término do metrô e alternativa madrugada.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://www.chile.travel/",
+        "queriedAt": "2026-11-24T14:18:56.565953+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  },
+  "buenos": {
+    "official2027": "Portal turístico municipal consultado; não confirma agenda/local de corso para datas solicitadas.",
+    "traditionalReference": "Corsos de bairro só após anúncio; Centro/Palermo/Recoleta são áreas de hospedagem.",
+    "night": "AEP eEZE distintos; transfer ao terminalurbano→imóvel e viagens a corso separados. Conferir retornoapós fechamento do transporte.",
+    "sources": [
+      {
+        "title": "Fonte anterior de programação consultada novamente. Página acessível não confirma agenda2027 ou polo. Distinguir circuito tradicio",
+        "url": "https://turismo.buenosaires.gob.ar/",
+        "queriedAt": "2026-11-24T14:18:56.800285+00:00"
+      }
+    ],
+    "officialConfirmedEvents": []
+  }
+}

@@ -48,5 +48,56 @@
       "validation.json": "957ab32c556f7e5da9f0c42e1e090e5262a92f05cb7f3711b44fe91846e94cab"
     },
     "photoPolicy": "Nenhuma foto de imóvel utilizada sem permissão de uso confirmada."
+  },
+  {
+    "id": "2026-11-24-r1",
+    "label": "Pesquisa Carnaval 2027 · 2026-11-24",
+    "queriedAt": "2026-11-24T14:20:44.505Z",
+    "clientDate": "2026-11-24",
+    "counts": {
+      "properties": 266,
+      "lodgings": 2217,
+      "transport": 656,
+      "transfers": 52,
+      "experiences": 44,
+      "sources": 1340,
+      "ground": 445,
+      "observations": 2917
+    },
+    "requests": {
+      "lodging": 82,
+      "rooms": 144,
+      "flights": 56
+    },
+    "roomRatesOccupancyVerified": 210,
+    "pendingCompleteTrips": true,
+    "preservedBaseSha256": {
+      "combinations.json": "8105c0d614426c7963375fab3d02ee64147fe3338509d27444bcafeabc09ef19",
+      "destinations.json": "df6e805eb816b5a77c64d04a07b30dd48159119cdf728d13e77fb0f6982f5bf4",
+      "events.json": "02744ba32f00992f9fc756efc9202d07647bcbeb426c27e91756154bb4adefcd",
+      "history.json": "2b9409db7f1d1b50e751094f356016add5136293fb2202c7d89e8b9a2dac39f3",
+      "link-audit.json": "03701a1bf0e7bac9bde402a4ffebb576c2896181ef093d0cea123ade182223fa",
+      "lodgings-runtime.json": "e310e83497f27ac82f3875b7f9b8662ec59a5627efce36d1d19a08d48bf97346",
+      "lodgings.json": "6172bef4e8d6c53191c32ddc27af5e561e9c9867a9b7a4e8703d50742135e319",
+      "meta.json": "3f41004e90e59484d1352f31b6e6a8958540c3ec6997b8c970dac89d0e7f4b26",
+      "projects.json": "c34ca7e9438943d68ff2cdf993fa4e5ab665bceb580ef9b2b9df1f89abfc324e",
+      "properties.json": "b3c73318fd81b2c3a3d92ff0b79be670602fc2c62384f110223aec641b8d1350",
+      "research-two-summary.json": "2081f45fad69d72267ae214c2283625bd635fe5b0dfbd96e69de99fda93c8ea7",
+      "research.json": "6707dada3f6483967da4b02a6a7017cad730fc256f582c296080c638c4437978",
+      "routes-runtime.json": "2e1f4588285295353959ad0216833f51e64c9585cae74310c847eea457481929",
+      "routes.json": "e54e9713eadd9917cb5316f4036ffae87cb45d53398e63991de558ca8157c3b9",
+      "sources.json": "e37652bc4ea414a0920619b1205eac773b5f51ad6e4a33ceb8a9bb5d80b669ef",
+      "transfers-runtime.json": "d7b6b337bde2829c8799a0d88dd544a78380d971de417277ad7e9ceca8732aed",
+      "transfers.json": "943b8a6a7f42824db854eebfd7fde71d7f1924b44196100ca6445a3c414fda9f",
+      "transport-runtime.json": "916b2ec2329f21e4db8e204e7983a505057a8aea65d9c738da59752a8039f232",
+      "transport.json": "5093ab9597c19d46d92a6efbd65a7a228207c48f287d8ad063a3ea2f60d5934f",
+      "updates.json": "3f5df04ea104b257cdc8b133bd6096cd728a563de813abc9a7e2c52f0124e197",
+      "v2-preservation.json": "b707d3f660417336e0b3f58c2aef972f0f1ec67a0ce3aba8cf5f70bf06e6aed4",
+      "v2-regression.json": "64f0e46c87cd22c29b2da506aec70762568cecab21e11bb21637370a730542a0",
+      "v2-validation.json": "d6a897b56407a1b622553bfff4745b1074183d4bf2ad4491c4fc37a3d206b214",
+      "v3-validation.json": "4df450c132de5cec12b0bf78d2b1fe2a095b0f367472cde3ff2dae5d7c3f7538",
+      "validation.json": "957ab32c556f7e5da9f0c42e1e090e5262a92f05cb7f3711b44fe91846e94cab"
+    },
+    "photoPolicy": "Nenhuma foto de imóvel utilizada sem permissão de uso confirmada."
   }
 ]

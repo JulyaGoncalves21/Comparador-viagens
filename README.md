@@ -1,3 +1,5 @@
+Rodada atual: [pesquisa e banco permanente de 24/11/2026](PESQUISA-2026-11-24.md). Os números abaixo descrevem rodadas anteriores preservadas.
+
 # ROTA27 V3 — pesquisa, viagens e experiências
 
 Publicado em https://julyagoncalves21.github.io/Comparador-viagens/ . A aplicação continua estática e usa caminhos relativos. Portfólio e projeto antigo não são alterados.

@@ -1,0 +1,52 @@
+{
+  "id": "2026-11-24-r1",
+  "startedAt": "2026-11-24T14:16:33.142Z",
+  "completedAt": "2026-11-24T14:20:44.505Z",
+  "origin": "CWB",
+  "checkin": "2027-02-05",
+  "checkout": "2027-02-10",
+  "guests": [
+    2,
+    3,
+    5,
+    6
+  ],
+  "destinations": 12,
+  "requests": {
+    "lodging": 82,
+    "room": 144,
+    "flight": 56,
+    "ground": 445,
+    "eventUrls": 35
+  },
+  "newRecords": {
+    "lodgings": 2217,
+    "transport": 656,
+    "transfers": 52,
+    "events": 44,
+    "ground": 445,
+    "price_history": 2917
+  },
+  "availability": {
+    "rateObservationsVerified": 210,
+    "rateObservationsUnverified": 2007,
+    "destinationGroupsVerified": 41,
+    "destinationGroupsResearched": 48,
+    "eventsExactAvailabilityVerified": 0,
+    "eventsUnavailableCategory": 3
+  },
+  "failureCount": 149,
+  "status": "completed_with_pending_information",
+  "limitations": [
+    "Custos finais/taxas, bagagem e itinerários a conferir",
+    "Sete combinações destino/grupo não tiveram tarifa com estoque exato comprovado",
+    "Ausência de tarifa retornada não significa esgotamento",
+    "Categorias esgotadas na landing do evento não comprovam cada noite"
+  ],
+  "initialAudit": {
+    "baselineCommit": "6f9009a63929e1a2dd77e48c8500116946b76329",
+    "existingLodgingObservations": 2539,
+    "availabilityExplicitlyVerifiedBeforeRun": 0,
+    "rule": "HTTP200 e preço de busca nunca provam disponibilidade. Histórico preservado; apenas resposta de tarifa/quarto com estoque positivo, datas, unidades e ocupação exatas pode entrar no ranking principal."
+  }
+}

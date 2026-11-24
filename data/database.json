@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "entities": {
+    "destinations": {
+      "base": "destinations.json",
+      "snapshots": []
+    },
+    "properties": {
+      "base": "properties.json",
+      "snapshots": [
+        "snapshots/2026-11-23-v3/properties.json",
+        "snapshots/2026-11-24-r1/properties.json"
+      ]
+    },
+    "lodgings": {
+      "base": "lodgings.json",
+      "snapshots": [
+        "snapshots/2026-11-23-v3/lodgings.json",
+        "snapshots/2026-11-24-r1/lodgings.json"
+      ]
+    },
+    "transport": {
+      "base": "transport.json",
+      "snapshots": [
+        "snapshots/2026-11-23-v3/transport.json",
+        "snapshots/2026-11-24-r1/transport.json"
+      ]
+    },
+    "transfers": {
+      "base": "transfers.json",
+      "snapshots": [
+        "snapshots/2026-11-23-v3/transfers.json",
+        "snapshots/2026-11-24-r1/transfers.json"
+      ]
+    },
+    "events": {
+      "base": "events.json",
+      "snapshots": [
+        "snapshots/2026-11-23-v3/experiences.json",
+        "snapshots/2026-11-24-r1/experiences.json"
+      ]
+    },
+    "sources": {
+      "base": "sources.json",
+      "snapshots": [
+        "snapshots/2026-11-23-v3/sources.json",
+        "snapshots/2026-11-24-r1/sources.json"
+      ]
+    }
+  },
+  "price_history": "price_history.json",
+  "research_runs": "research_runs.json",
+  "latest_prices": "latest_prices.json",
+  "availabilityPolicy": "Disponibilidade expira em24h; requer estoque de tarifa, ocupação e unidades exatas. Nunca inferida deHTTP200."
+}

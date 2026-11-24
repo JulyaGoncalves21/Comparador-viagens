@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "shards": [
+    {
+      "runId": "2026-11-23-v3",
+      "path": "snapshots/2026-11-23-v3/observations.json",
+      "count": 3999,
+      "appendOnly": true
+    },
+    {
+      "runId": "2026-11-24-r1",
+      "path": "snapshots/2026-11-24-r1/observations.json",
+      "count": 2917,
+      "appendOnly": true
+    }
+  ],
+  "totalSnapshots": 6916,
+  "rule": "Compare somente dimensões e condições comprovadamente equivalentes."
+}

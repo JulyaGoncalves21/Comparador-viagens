@@ -1,0 +1,1489 @@
+[
+  {
+    "category": "lodging",
+    "destinationId": "rio",
+    "guests": 5,
+    "queriedAt": "2026-11-24T14:16:33.142Z",
+    "error": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "id": "failure_03dfc7f21aa61e786d",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "room_evidence",
+    "destinationId": "aracaju",
+    "guests": 2,
+    "queriedAt": "2026-11-24T14:18:59.768Z",
+    "error": "Nenhuma tarifa retornada. Não prova esgotamento; disponibilidade não verificada.",
+    "id": "failure_fe8c560487f6154ce6",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "room_evidence",
+    "destinationId": "aracaju",
+    "guests": 3,
+    "queriedAt": "2026-11-24T14:18:59.768Z",
+    "error": "Nenhuma tarifa retornada. Não prova esgotamento; disponibilidade não verificada.",
+    "id": "failure_c4e3e3f06e32b829ce",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "room_evidence",
+    "destinationId": "recife",
+    "guests": 5,
+    "queriedAt": "2026-11-24T14:19:05.190Z",
+    "error": "Nenhuma tarifa retornada. Não prova esgotamento; disponibilidade não verificada.",
+    "id": "failure_10b5b99c2289c6cd4d",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "room_evidence",
+    "destinationId": "buenos",
+    "guests": 3,
+    "queriedAt": "2026-11-24T14:19:06.736Z",
+    "error": "Nenhuma tarifa retornada. Não prova esgotamento; disponibilidade não verificada.",
+    "id": "failure_371150020ae565c6ea",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "maceio",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/maceio-al/curitiba-pr?departureDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:16.448318+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_11f1acc5d54157a527",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "maceio",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/maceio-al/curitiba-pr?departureDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:17.170975+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_27cb8d09cd553ddcaf",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "natal",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/natal-rn?departureDate=2027-02-05&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:17.864488+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_3afb2d11d8d705c0a0",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "natal",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/natal-rn/curitiba-pr?departureDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:18.361299+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_4581fab93f23845fce",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "natal",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/natal-rn?departureDate=2027-02-05&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:18.491821+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_672657e7d351a7d50e",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "natal",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/natal-rn/curitiba-pr?departureDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:18.544054+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_13697f5a3854a2e3f5",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "natal",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/natal-rn?departureDate=2027-02-05&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:18.686868+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_7c2554c61bd429a000",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "natal",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/natal-rn/curitiba-pr?departureDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:18.754806+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_0fab2e25299850880b",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "natal",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/natal-rn?departureDate=2027-02-05&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:18.776377+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_b352950104ff59b452",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "natal",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/natal-rn/curitiba-pr?departureDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:18.887770+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_fc1c153e1d1d8979bb",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "jeri",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/jijoca-de-jericoacoara-ce?departureDate=2027-02-05&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:19.048682+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_71ab8303e782c5e578",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "jeri",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/jijoca-de-jericoacoara-ce/curitiba-pr?departureDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:19.117660+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_1532af69eca935a066",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "jeri",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/jijoca-de-jericoacoara-ce?departureDate=2027-02-05&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:19.642027+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_82ccfe5f69198cbce1",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "jeri",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/jijoca-de-jericoacoara-ce/curitiba-pr?departureDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:19.913964+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_fee0b748398219a2f1",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "jeri",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/jijoca-de-jericoacoara-ce?departureDate=2027-02-05&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:19.940383+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_405a7d1ad365d930d8",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "jeri",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/jijoca-de-jericoacoara-ce/curitiba-pr?departureDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:19.954387+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_20f0646e10ccaa8cbe",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "jeri",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/jijoca-de-jericoacoara-ce?departureDate=2027-02-05&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:20.627550+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_eb63d9351e760783ad",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "jeri",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/jijoca-de-jericoacoara-ce/curitiba-pr?departureDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:20.647412+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_9851d550bc25481ef0",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "salvador",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/salvador-ba?departureDate=2027-02-05&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:20.686790+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_088da67c27da0ec320",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "salvador",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/salvador-ba/curitiba-pr?departureDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:20.697794+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_3599cf29cd0340f5bc",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "salvador",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/salvador-ba?departureDate=2027-02-05&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:20.917130+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_c02e7a13aa6c91b61e",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "salvador",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/salvador-ba/curitiba-pr?departureDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:21.211465+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_cbccf52d8b75bb3027",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "salvador",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/salvador-ba?departureDate=2027-02-05&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:21.438115+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_739402aa3907d8e40e",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "salvador",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/salvador-ba/curitiba-pr?departureDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:21.438115+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_c7bd4ed728b1ffd5b5",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "salvador",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/salvador-ba?departureDate=2027-02-05&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:21.657985+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_9455ed4d2ffe2c8284",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "salvador",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/salvador-ba/curitiba-pr?departureDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:21.872712+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_f69e16003e7ff6249b",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "bh",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/belo-horizonte-mg?departureDate=2027-02-05&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:21.996146+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_ff16b57f25896a4f8a",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "bh",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/belo-horizonte-mg/curitiba-pr?departureDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:22.452698+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_0fdf1e28fe6586d1f2",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "bh",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/belo-horizonte-mg?departureDate=2027-02-05&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:22.573735+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_de3230023723f51469",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "bh",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/belo-horizonte-mg/curitiba-pr?departureDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:22.603725+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_f9cc651b30dd12eb89",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "bh",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/belo-horizonte-mg?departureDate=2027-02-05&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:23.004522+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_62317b0a5a540691c0",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "bh",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/belo-horizonte-mg/curitiba-pr?departureDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:23.055699+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_07f6ffaf169b4cf7e1",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "bh",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/belo-horizonte-mg?departureDate=2027-02-05&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:23.057134+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_5d29546e85ab0234ea",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "bh",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/belo-horizonte-mg/curitiba-pr?departureDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:23.057134+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_308dbb91648c3c09f6",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "recife",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/recife-pe?departureDate=2027-02-05&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:23.805356+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_0c0c9df8007b5d01ff",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "recife",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/recife-pe/curitiba-pr?departureDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:24.111042+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_f231281ea7818a897f",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "recife",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/recife-pe?departureDate=2027-02-05&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:24.111042+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_330e5e7b4d30c88964",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "recife",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/recife-pe/curitiba-pr?departureDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:24.215772+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_308480c3f51b68dd89",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "recife",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/recife-pe?departureDate=2027-02-05&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:24.290404+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_3bc6fd1a7bdc808fdd",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "recife",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/recife-pe/curitiba-pr?departureDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:24.381653+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_50f55a34099dc5bbf9",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "recife",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/recife-pe?departureDate=2027-02-05&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:24.511065+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_3a2d8ceaada9b41a4f",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "recife",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/recife-pe/curitiba-pr?departureDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:24.543925+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_296d90886d46cfb701",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "lima",
+    "guests": 2,
+    "url": "https://www.busbud.com/pt/onibus-curitiba-lima/r/6gkzwg-6mc5rp?departureDate=2027-02-05&returnDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:24.905223+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_e0f798e421e9625e04",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "lima",
+    "guests": 2,
+    "url": "https://www.busbud.com/pt/onibus-curitiba-lima/r/6gkzwg-6mc5rp?departureDate=2027-02-10&returnDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:25.018857+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_faaa0800620c98c12c",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "lima",
+    "guests": 3,
+    "url": "https://www.busbud.com/pt/onibus-curitiba-lima/r/6gkzwg-6mc5rp?departureDate=2027-02-05&returnDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:25.035851+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_7ddb09c5855a38c2a5",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "lima",
+    "guests": 3,
+    "url": "https://www.busbud.com/pt/onibus-curitiba-lima/r/6gkzwg-6mc5rp?departureDate=2027-02-10&returnDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:25.053854+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_f8d0b656482dc8a33a",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "lima",
+    "guests": 5,
+    "url": "https://www.busbud.com/pt/onibus-curitiba-lima/r/6gkzwg-6mc5rp?departureDate=2027-02-05&returnDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:25.826566+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_0527b52b0d6cd8f9a5",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "lima",
+    "guests": 5,
+    "url": "https://www.busbud.com/pt/onibus-curitiba-lima/r/6gkzwg-6mc5rp?departureDate=2027-02-10&returnDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:26.153364+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_ff52fddfde5022fbdd",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "lima",
+    "guests": 6,
+    "url": "https://www.busbud.com/pt/onibus-curitiba-lima/r/6gkzwg-6mc5rp?departureDate=2027-02-05&returnDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:26.238390+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_65c2588520b9878c01",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "lima",
+    "guests": 6,
+    "url": "https://www.busbud.com/pt/onibus-curitiba-lima/r/6gkzwg-6mc5rp?departureDate=2027-02-10&returnDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:26.250543+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_6f7418bcd5770bfaf8",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "santiago",
+    "guests": 2,
+    "url": "https://www.buson.com.br/i/onibus-curitiba-santiago-bus-station/6gkzqg-6fbczwk4b?departureDate=2027-02-05&returnDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:26.673921+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_9a6bffe766fd786c69",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "santiago",
+    "guests": 2,
+    "url": "https://www.buson.com.br/i/onibus-curitiba-santiago-bus-station/6gkzqg-6fbczwk4b?departureDate=2027-02-10&returnDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:26.673921+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_9c06fcb8a9fbc01eb8",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "santiago",
+    "guests": 3,
+    "url": "https://www.buson.com.br/i/onibus-curitiba-santiago-bus-station/6gkzqg-6fbczwk4b?departureDate=2027-02-05&returnDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:26.765378+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_da4513a2515fd5fda4",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "santiago",
+    "guests": 3,
+    "url": "https://www.buson.com.br/i/onibus-curitiba-santiago-bus-station/6gkzqg-6fbczwk4b?departureDate=2027-02-10&returnDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:26.903693+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_106dfcc10597580093",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "santiago",
+    "guests": 5,
+    "url": "https://www.buson.com.br/i/onibus-curitiba-santiago-bus-station/6gkzqg-6fbczwk4b?departureDate=2027-02-05&returnDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:27.643106+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_1cf3e441fd9c7c3f76",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "santiago",
+    "guests": 5,
+    "url": "https://www.buson.com.br/i/onibus-curitiba-santiago-bus-station/6gkzqg-6fbczwk4b?departureDate=2027-02-10&returnDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:27.643106+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_0824cb7a311190aa3b",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "santiago",
+    "guests": 6,
+    "url": "https://www.buson.com.br/i/onibus-curitiba-santiago-bus-station/6gkzqg-6fbczwk4b?departureDate=2027-02-05&returnDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:27.644107+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_3449d52510f6d544b0",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "santiago",
+    "guests": 6,
+    "url": "https://www.buson.com.br/i/onibus-curitiba-santiago-bus-station/6gkzqg-6fbczwk4b?departureDate=2027-02-10&returnDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:27.713862+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_03bca4a2d5fac666d3",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "buenos",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/buenos-aires-ba?departureDate=2027-02-05&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:27.837789+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_b5209d4751456b22c1",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "buenos",
+    "guests": 2,
+    "url": "https://www.clickbus.com.br/onibus/buenos-aires-ba/curitiba-pr?departureDate=2027-02-10&passengers=2&adults=2",
+    "queriedAt": "2026-11-24T14:17:28.062061+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_3635e20f3e7463167e",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "buenos",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/buenos-aires-ba?departureDate=2027-02-05&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:28.124967+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_98db244b5fa280dcd8",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "buenos",
+    "guests": 3,
+    "url": "https://www.clickbus.com.br/onibus/buenos-aires-ba/curitiba-pr?departureDate=2027-02-10&passengers=3&adults=3",
+    "queriedAt": "2026-11-24T14:17:28.433719+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_cb368017fabcf1c940",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "buenos",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/buenos-aires-ba?departureDate=2027-02-05&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:28.433719+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_d85a94273556b2e1e9",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "buenos",
+    "guests": 5,
+    "url": "https://www.clickbus.com.br/onibus/buenos-aires-ba/curitiba-pr?departureDate=2027-02-10&passengers=5&adults=5",
+    "queriedAt": "2026-11-24T14:17:28.483517+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_9ab09c507ed7892165",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "buenos",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/curitiba-pr/buenos-aires-ba?departureDate=2027-02-05&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:28.706702+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_2db79a7d5690d922e0",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "bus",
+    "destinationId": "buenos",
+    "guests": 6,
+    "url": "https://www.clickbus.com.br/onibus/buenos-aires-ba/curitiba-pr?departureDate=2027-02-10&passengers=6&adults=6",
+    "queriedAt": "2026-11-24T14:17:29.337432+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_bf63073b34f3ecf579",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "maceio",
+    "guests": 2,
+    "url": "https://www.aenabrasil.com.br/pt/aeroportos/aeroporto-internacional-zumbi-dos-palmares-maceio/Como-chegar.html",
+    "queriedAt": "2026-11-24T14:17:31.961070+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "id": "failure_9db33bd9c3ec9e8c6b",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "maceio",
+    "guests": 3,
+    "url": "https://www.aenabrasil.com.br/pt/aeroportos/aeroporto-internacional-zumbi-dos-palmares-maceio/Como-chegar.html",
+    "queriedAt": "2026-11-24T14:17:32.262303+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "id": "failure_156c5f7960fa5286e8",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "maceio",
+    "guests": 5,
+    "url": "https://www.aenabrasil.com.br/pt/aeroportos/aeroporto-internacional-zumbi-dos-palmares-maceio/Como-chegar.html",
+    "queriedAt": "2026-11-24T14:17:32.323189+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "id": "failure_3dfe3f8956088ab95c",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "maceio",
+    "guests": 6,
+    "url": "https://www.aenabrasil.com.br/pt/aeroportos/aeroporto-internacional-zumbi-dos-palmares-maceio/Como-chegar.html",
+    "queriedAt": "2026-11-24T14:17:32.323189+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "id": "failure_fa60c9c9a0c3a929f9",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "bh",
+    "guests": 2,
+    "url": "https://conexaoaeroporto.com.br/perguntas-frequentes/",
+    "queriedAt": "2026-11-24T14:17:35.853364+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_c0eeb66c637ac8785f",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "bh",
+    "guests": 3,
+    "url": "https://conexaoaeroporto.com.br/perguntas-frequentes/",
+    "queriedAt": "2026-11-24T14:17:35.923076+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_b15978a518c66f6382",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "bh",
+    "guests": 5,
+    "url": "https://conexaoaeroporto.com.br/perguntas-frequentes/",
+    "queriedAt": "2026-11-24T14:17:36.566454+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_1fb672f0d8d7a96c1f",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "bh",
+    "guests": 6,
+    "url": "https://conexaoaeroporto.com.br/perguntas-frequentes/",
+    "queriedAt": "2026-11-24T14:17:36.899628+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_a5445bb3fd3f892bb8",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "santiago",
+    "guests": 2,
+    "url": "https://www.nuevopudahuel.cl/",
+    "queriedAt": "2026-11-24T14:17:38.511111+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_b51f6ae33fbecbd195",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "santiago",
+    "guests": 3,
+    "url": "https://www.nuevopudahuel.cl/",
+    "queriedAt": "2026-11-24T14:17:38.531822+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_d9384d379a168f8a22",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "santiago",
+    "guests": 5,
+    "url": "https://www.nuevopudahuel.cl/",
+    "queriedAt": "2026-11-24T14:17:38.860186+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_f275261f488697ae32",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "santiago",
+    "guests": 6,
+    "url": "https://www.nuevopudahuel.cl/",
+    "queriedAt": "2026-11-24T14:17:39.193887+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_93a7110b639c56d617",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "transfer",
+    "destinationId": "buenos",
+    "guests": 6,
+    "url": "https://www.aeropuertosargentina.com/",
+    "queriedAt": "2026-11-24T14:17:41.661501+00:00",
+    "error": "Remote end closed connection without response",
+    "id": "failure_ccd0049ea62b8dff65",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "local_transport",
+    "destinationId": "curitiba",
+    "guests": 2,
+    "url": "https://www.urbs.curitiba.pr.gov.br/horario-de-onibus/208",
+    "queriedAt": "2026-11-24T14:17:52.578421+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_319ec8115408ed9794",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "local_transport",
+    "destinationId": "curitiba",
+    "guests": 3,
+    "url": "https://www.urbs.curitiba.pr.gov.br/horario-de-onibus/208",
+    "queriedAt": "2026-11-24T14:17:52.729847+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_d09213f02889953ea9",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "local_transport",
+    "destinationId": "curitiba",
+    "guests": 5,
+    "url": "https://www.urbs.curitiba.pr.gov.br/horario-de-onibus/208",
+    "queriedAt": "2026-11-24T14:17:52.826007+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_d0d26b61cf6d1694ed",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "local_transport",
+    "destinationId": "curitiba",
+    "guests": 6,
+    "url": "https://www.urbs.curitiba.pr.gov.br/horario-de-onibus/208",
+    "queriedAt": "2026-11-24T14:17:52.827007+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_65177e8d7e5cb8e537",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "local_transport",
+    "destinationId": "santiago",
+    "guests": 2,
+    "url": "https://www.red.cl/tarifas-y-recargas/conoce-las-tarifas/",
+    "queriedAt": "2026-11-24T14:17:57.494923+00:00",
+    "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+    "id": "failure_1dd77ac0facc59e2b1",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "local_transport",
+    "destinationId": "santiago",
+    "guests": 3,
+    "url": "https://www.red.cl/tarifas-y-recargas/conoce-las-tarifas/",
+    "queriedAt": "2026-11-24T14:17:57.508179+00:00",
+    "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+    "id": "failure_162f59906761bc4664",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "local_transport",
+    "destinationId": "santiago",
+    "guests": 5,
+    "url": "https://www.red.cl/tarifas-y-recargas/conoce-las-tarifas/",
+    "queriedAt": "2026-11-24T14:17:57.522883+00:00",
+    "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+    "id": "failure_adb4f6a85c4af930b5",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "local_transport",
+    "destinationId": "santiago",
+    "guests": 6,
+    "url": "https://www.red.cl/tarifas-y-recargas/conoce-las-tarifas/",
+    "queriedAt": "2026-11-24T14:17:57.534890+00:00",
+    "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+    "id": "failure_9c7f0d2c71434ce87e",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "food",
+    "destinationId": "santiago",
+    "guests": 2,
+    "url": "https://galindo.cl/",
+    "queriedAt": "2026-11-24T14:18:15.531269+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_d33b769c0fc2bdc36a",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "food",
+    "destinationId": "santiago",
+    "guests": 3,
+    "url": "https://galindo.cl/",
+    "queriedAt": "2026-11-24T14:18:15.733174+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_7d85dbc272705fc232",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "food",
+    "destinationId": "santiago",
+    "guests": 5,
+    "url": "https://galindo.cl/",
+    "queriedAt": "2026-11-24T14:18:15.744892+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_a6cfa3cccefc0499f4",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "food",
+    "destinationId": "santiago",
+    "guests": 6,
+    "url": "https://galindo.cl/",
+    "queriedAt": "2026-11-24T14:18:15.750500+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_5891d2f8c60e451c72",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "reference_tariff",
+    "destinationId": "bh",
+    "guests": 2,
+    "url": "https://conexaoaeroporto.com.br/perguntas-frequentes/",
+    "queriedAt": "2026-11-24T14:18:17.154030+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_a313d1b918103e1120",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "reference_tariff",
+    "destinationId": "bh",
+    "guests": 3,
+    "url": "https://conexaoaeroporto.com.br/perguntas-frequentes/",
+    "queriedAt": "2026-11-24T14:18:17.427466+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_1ccf18f79be260702a",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "reference_tariff",
+    "destinationId": "bh",
+    "guests": 5,
+    "url": "https://conexaoaeroporto.com.br/perguntas-frequentes/",
+    "queriedAt": "2026-11-24T14:18:17.517502+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_37f7922da0f50cd9de",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "reference_tariff",
+    "destinationId": "bh",
+    "guests": 6,
+    "url": "https://conexaoaeroporto.com.br/perguntas-frequentes/",
+    "queriedAt": "2026-11-24T14:18:18.013749+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "id": "failure_2296954bee9abbfec3",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "reference_tariff",
+    "destinationId": "curitiba",
+    "guests": 2,
+    "url": "https://www.curitiba.pr.gov.br/noticias/prefeitura-de-curitiba-mantem-tarifa-de-onibus-em-r-6-e-programas-sociais-no-transporte-em-2026/81220",
+    "queriedAt": "2026-11-24T14:18:22.102778+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_9f8ab56fdf716eb7d6",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "reference_tariff",
+    "destinationId": "curitiba",
+    "guests": 3,
+    "url": "https://www.curitiba.pr.gov.br/noticias/prefeitura-de-curitiba-mantem-tarifa-de-onibus-em-r-6-e-programas-sociais-no-transporte-em-2026/81220",
+    "queriedAt": "2026-11-24T14:18:22.248267+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_d66027ebc53fe2212e",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "reference_tariff",
+    "destinationId": "curitiba",
+    "guests": 5,
+    "url": "https://www.curitiba.pr.gov.br/noticias/prefeitura-de-curitiba-mantem-tarifa-de-onibus-em-r-6-e-programas-sociais-no-transporte-em-2026/81220",
+    "queriedAt": "2026-11-24T14:18:22.407885+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_098f17251f4fb3fb9f",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "reference_tariff",
+    "destinationId": "curitiba",
+    "guests": 6,
+    "url": "https://www.curitiba.pr.gov.br/noticias/prefeitura-de-curitiba-mantem-tarifa-de-onibus-em-r-6-e-programas-sociais-no-transporte-em-2026/81220",
+    "queriedAt": "2026-11-24T14:18:22.427212+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_c317dd3ba8f44e71a6",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "rio",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Rio+de+Janeiro&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:26.286298+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_dfc639bb9f60c138a0",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "rio",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Rio+de+Janeiro&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:26.290299+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_5453e380aead1d53b7",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "rio",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Rio+de+Janeiro&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:26.549865+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_bb8ff6d59cd0d38c1f",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "arraial",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Arraial+do+Cabo&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:26.768734+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_6305363b13bf3e2906",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "arraial",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Arraial+do+Cabo&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:26.907041+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_a679dcf9bb9ddcdb99",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "arraial",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Arraial+do+Cabo&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:26.977554+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_82a55657bd1c7852c7",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "aracaju",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Aracaju&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:26.993679+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_1af52fd6b9fbf47ef2",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "aracaju",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Aracaju&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:27.009655+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_edcb7c00133c8dc2d7",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "aracaju",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Aracaju&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:27.331395+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_602762a748f617fb94",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "maceio",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Macei%C3%B3&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:29.145804+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_41504af53552651082",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "maceio",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Macei%C3%B3&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:29.598112+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_fc508af97b01fa8365",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "maceio",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Macei%C3%B3&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:29.825357+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_1a76ba525ed3473f43",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "natal",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Natal&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:30.105851+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_20a4e4c01d0b67e803",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "natal",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Natal&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:30.505728+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_dd2d828e1212f80678",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "natal",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Natal&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:30.681865+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_010913f9450fd243fb",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "jeri",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Jericoacoara&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:30.755212+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_10e05044a555d06f2f",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "jeri",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Jericoacoara&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:30.885416+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_ae0d5d31829f5e1398",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "jeri",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Jericoacoara&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:31.386820+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_3ca973939c3dcabfa4",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "salvador",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Salvador&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:31.427226+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_9304c779e9f9017f84",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "salvador",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Salvador&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:31.630852+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_9ac4cedf76338e85a9",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "salvador",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Salvador&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:31.754028+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_74c3c66700c5c36901",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "bh",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Belo+Horizonte&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:33.082194+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_206abb4584da84de14",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "bh",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Belo+Horizonte&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:33.420610+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_ba95d68c398d1e2edb",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "bh",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Belo+Horizonte&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:34.543973+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_5d21eaae68dba23aae",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "recife",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Olinda%2FRecife&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:34.656221+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_baa62d76a805625420",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "recife",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Olinda%2FRecife&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:34.720152+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_018b42f02486c9290a",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "recife",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Olinda%2FRecife&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:35.132413+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_efa20c8ee861b0aa92",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "lima",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Lima&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:35.300348+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_51b6ce241076ea5df5",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "lima",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Lima&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:35.332355+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_f0a303ce543d156ff8",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "lima",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Lima&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:36.468616+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_641cd26ea68716b375",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "santiago",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Santiago&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:36.878587+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_e63622a3a048f5f616",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "santiago",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Santiago&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:36.921953+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_8393773e29156af3dd",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "santiago",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Santiago&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:37.636508+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_b2e677597a183277c8",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "buenos",
+    "guests": 2,
+    "url": "https://www.expedia.com.br/Hotel-Search?destination=Buenos+Aires&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:37.685892+00:00",
+    "error": "HTTP Error 429: Too Many Requests",
+    "id": "failure_f792b3da4785f66660",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "buenos",
+    "guests": 2,
+    "url": "https://www.hoteis.com/Hotel-Search?destination=Buenos+Aires&startDate=2027-02-05&endDate=2027-02-10&rooms=2&adults=2",
+    "queriedAt": "2026-11-24T14:18:37.713892+00:00",
+    "error": "The read operation timed out",
+    "id": "failure_5f8711b184aad97a3d",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "other_lodging_platform",
+    "destinationId": "buenos",
+    "guests": 2,
+    "url": "https://www.decolar.com/hoteis/?destination=Buenos+Aires&checkin=2027-02-05&checkout=2027-02-10&adults=2&rooms=1",
+    "queriedAt": "2026-11-24T14:18:38.137488+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_f9eee07fff2df662fe",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "route_recheck",
+    "destinationId": "rio",
+    "guests": null,
+    "url": null,
+    "queriedAt": "2026-11-24T14:18:48.790350+00:00",
+    "error": "unknown url type: 'None'",
+    "id": "failure_33739a1e9b6d62e5d3",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "route_recheck",
+    "destinationId": "rio",
+    "guests": null,
+    "url": null,
+    "queriedAt": "2026-11-24T14:18:48.818900+00:00",
+    "error": "unknown url type: 'None'",
+    "id": "failure_a8597f30d70d8cf2b2",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "route_recheck",
+    "destinationId": "rio",
+    "guests": null,
+    "url": null,
+    "queriedAt": "2026-11-24T14:18:49.117933+00:00",
+    "error": "unknown url type: 'None'",
+    "id": "failure_fe18d7225003aa7a9d",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "route_recheck",
+    "destinationId": "rio",
+    "guests": null,
+    "url": null,
+    "queriedAt": "2026-11-24T14:18:49.152707+00:00",
+    "error": "unknown url type: 'None'",
+    "id": "failure_b10588724813f7cc60",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "route_recheck",
+    "destinationId": "rio",
+    "guests": null,
+    "url": null,
+    "queriedAt": "2026-11-24T14:18:49.296118+00:00",
+    "error": "unknown url type: 'None'",
+    "id": "failure_540cf5495db9b44072",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "event_pole_source",
+    "destinationId": "recife",
+    "guests": null,
+    "url": "https://www.bilheteriadigital.com/enquanto-isso-na-sala-da-justica-2027-22-de-janeiro",
+    "queriedAt": "2026-11-24T14:18:52.664223+00:00",
+    "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)>",
+    "id": "failure_b3072e19bea22e5143",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "event_pole_source",
+    "destinationId": "recife",
+    "guests": null,
+    "url": "https://www2.recife.pe.gov.br/",
+    "queriedAt": "2026-11-24T14:18:56.493926+00:00",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+    "id": "failure_24a12a799245bda15f",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "route_operation_source",
+    "destinationId": "curitiba",
+    "guests": null,
+    "url": "https://www.urbs.curitiba.pr.gov.br/horario-de-onibus/208",
+    "queriedAt": "2026-11-24T14:18:58.283239+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "id": "failure_bc59c60c89de6686ef",
+    "runId": "2026-11-24-r1"
+  },
+  {
+    "category": "route_pole_evidence",
+    "destinationId": "rio",
+    "guests": null,
+    "url": "https://linhas.cittamobi.com.br/maps/transporte_publico-RiodeJaneiro-MOBI-Rio-50-TerminalCentroOlimpico-6e7ee9302c57.pdf",
+    "queriedAt": "2026-11-24T14:18:43.732451+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "id": "failure_e1c5ef949faaec4adf",
+    "runId": "2026-11-24-r1"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "baselineCommit": "6f9009a63929e1a2dd77e48c8500116946b76329",
+  "existingLodgingObservations": 2539,
+  "availabilityExplicitlyVerifiedBeforeRun": 0,
+  "rule": "HTTP200 e preço de busca nunca provam disponibilidade. Histórico preservado; apenas resposta de tarifa/quarto com estoque positivo, datas, unidades e ocupação exatas pode entrar no ranking principal."
+}

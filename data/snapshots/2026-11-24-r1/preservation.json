@@ -1,0 +1,29 @@
+{
+  "runId": "2026-11-24-r1",
+  "immutablePreviousSnapshot": "2026-11-23-v3",
+  "previousSnapshotSha256": {
+    "snapshots\\2026-11-23-v3\\experiences.json": "67ab4be5be6f673155b7cb137c74a157f2b637e773c886a97194162f653dff4d",
+    "snapshots\\2026-11-23-v3\\ground.json": "43db025ab219c7b63650bd80cd80587f2f60677ee77500cda340300443e392dd",
+    "snapshots\\2026-11-23-v3\\lodgings-2.json": "5f2bfc263966fe2d38ab191a87635513c3e579835b171f395463adf295bb1c45",
+    "snapshots\\2026-11-23-v3\\lodgings-3.json": "544efc39a47e21714c437f05a37471ef202287c16a266f24acacb7fe65d23ba8",
+    "snapshots\\2026-11-23-v3\\lodgings-5.json": "d597741619b9b12f8a5427dc21d36920bfd22c4babf2de94b7248959db3e5453",
+    "snapshots\\2026-11-23-v3\\lodgings-6.json": "cd0cab6d420d899e4c69246caa034058af972f90eddf006db9186b0ecd873818",
+    "snapshots\\2026-11-23-v3\\lodgings.json": "ec22bbdf7b8c994e284aff259b532ac529b346df176266284f4a3f90979f7684",
+    "snapshots\\2026-11-23-v3\\observations.json": "5b10ebfd2cf629c6d14c864a70a3910ea8ee5b087855670beb8bfe016068c886",
+    "snapshots\\2026-11-23-v3\\properties.json": "fc09f94c7fa283f9ec74ae0e208e9d4716327cd09b7fd0d7e8bd834f018b8080",
+    "snapshots\\2026-11-23-v3\\sources.json": "99fbe0990363441d452d3d4a146d22bb2fa02751640518bd230513f6b9334545",
+    "snapshots\\2026-11-23-v3\\summary.json": "68d43e12e6742b24fb7576427f1b38f9951f93fea460bb7a5f03802a2b0b6057",
+    "snapshots\\2026-11-23-v3\\transfers-2.json": "0fb6b82539d6c42ffcdc16c374329f0e0a496aee7c9a13ba26fb073fb57521be",
+    "snapshots\\2026-11-23-v3\\transfers-3.json": "6c033fb2233fa73b6426ecd19868aac5acc49c351244f0a94e9122d95274314f",
+    "snapshots\\2026-11-23-v3\\transfers-5.json": "278ea4b198740aa8e6a39a8581d1d28f0717e6da5e50beedc8b0a4a16e0434f9",
+    "snapshots\\2026-11-23-v3\\transfers-6.json": "fb460de2a24fa03adf8d63156917e3c77a6d6b29e2a3835e6e954ef78db1d69a",
+    "snapshots\\2026-11-23-v3\\transfers.json": "733dd296dad5b128d3b68aa58e4563b7b8385ecfbf6d879b6de23d456859f311",
+    "snapshots\\2026-11-23-v3\\transport-2.json": "23c84957e611056eb94b63f1593348cf42d870e15492a7fa78049dc6335f293a",
+    "snapshots\\2026-11-23-v3\\transport-3.json": "b84131f3843d090d9b6de3be840e31a6c2fae951dc5390a452d4884bd17fe41f",
+    "snapshots\\2026-11-23-v3\\transport-5.json": "c4a0b07b2adc82b89acdf4c087a19376a63052613f13dde3e43ea893c748ec54",
+    "snapshots\\2026-11-23-v3\\transport-6.json": "7dd40cdae65ce89967282934b838e6963a6827a67c57cc1d60dd95d97631a193",
+    "snapshots\\2026-11-23-v3\\transport.json": "5d37bb9629b5f97f796b234d1b3c3a9d0366debcc40b08e2bc3997ea2b660b84"
+  },
+  "verifiedWalkingRoutes": 19,
+  "pendingRoutes": 5
+}

@@ -15,8 +15,9 @@ def safe(x):
  if isinstance(x,str):return re.sub(r'(?i)(?<![a-z])[A-Z]:\\[^\n;]+','[arquivo local omitido]',x)
  return x
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--input-dir',type=Path,default=Path('..'));ap.add_argument('--batch',default='2026-11-23-v3');a=ap.parse_args();root=Path(__file__).resolve().parents[1];data=root/'data';folder=data/'snapshots'/a.batch;folder.mkdir(parents=True,exist_ok=True)
- old={n:load(data/(n+'.json')) for n in ['properties','lodgings','transport','transfers','history','sources']};oldprops={canonical(p.get('url')):p for p in old['properties']};hotel=load(a.input_dir/'v3_hospedagens_completas_raw.json');flights=load(a.input_dir/'v3_voos_raw.json');rooms=load(a.input_dir/'v3_quartos_raw.json');ground=safe(load(a.input_dir/'v3_terrestre_pesquisa.json')['records']);experiences=safe(load(a.input_dir/'v3_eventos_pesquisa.json')['records']);newprops={};hs=[];ps=[];ts=[];sources=[];observations=[];roommap={}
+ ap=argparse.ArgumentParser();ap.add_argument('--input-dir',type=Path,default=Path('..'));ap.add_argument('--batch',default='2026-11-23-v3');ap.add_argument('--prefix',default='v3');ap.add_argument('--client-date',default='2026-11-23');ap.add_argument('--incremental-history',action='store_true');a=ap.parse_args();root=Path(__file__).resolve().parents[1];data=root/'data';folder=data/'snapshots'/a.batch;folder.mkdir(parents=True,exist_ok=True)
+ names=['p24_hospedagens.json','p24_voos.json','p24_quartos_completos.json','p24_terrestre.json','p24_eventos.json'] if a.prefix=='p24' else ['v3_hospedagens_completas_raw.json','v3_voos_raw.json','v3_quartos_raw.json','v3_terrestre_pesquisa.json','v3_eventos_pesquisa.json']
+ old={n:load(data/(n+'.json')) for n in ['properties','lodgings','transport','transfers','history','sources']};oldprops={canonical(p.get('url')):p for p in old['properties']};hotel=load(a.input_dir/names[0]);flights=load(a.input_dir/names[1]);rooms=load(a.input_dir/names[2]);ground=safe(load(a.input_dir/names[3])['records']);experiences=safe(load(a.input_dir/names[4])['records']);newprops={};hs=[];ps=[];ts=[];sources=[];observations=[];roommap={}
  def source(kind,name,url,at,notes):
   sid=uid('SV3',kind,name,url,at);sources.append({'id':sid,'category':kind,'title':name,'url':url,'queriedAt':at,'status':'Consulta real · cotação parcial','supports':notes,'pending':'Confirmar estoque, pagamento, alocação e taxas não discriminadas.'});return sid
  def observe(kind,q,identity):
@@ -39,7 +40,7 @@ def main():
   for room in result.get('rooms',[]):
    for rate in room.get('rates',[]):
     facilities=room.get('facilities',[]);text='; '.join(facilities);cap=room.get('max_occupancy');u=rate['checkout_url'];block=parse_qs(urlsplit(u).query).get('highlighted_blocks',[''])[0].split('_');occupancy=int(block[2]) if len(block)>2 and block[2].isdigit() else None;verified=occupancy==query['guests'] and cap is not None and cap>=query['guests'];dorm=bool(re.search(r'dormit[oó]rio|dormitory|cama em',room['name'],re.I));bath='Compartilhado' if re.search('banheiro compartilhado|toalete compartilhado',text,re.I) else 'Privativo' if re.search('banheiro privativo',text,re.I) else 'A conferir'
-    q={**h,'id':uid('HRV3',a.batch,u,rate['price_total'],query['queriedAt']),'amount':rate['price_total'] if verified else None,'observedAmount':rate['price_total'],'returnedRateOccupancy':occupancy,'roomName':room['name'],'capacity':cap,'beds':room.get('bed_summary'),'facilities':facilities,'privacy':'Dormitório coletivo' if dorm else 'Unidade privativa','bathroom':bath,'privacyVerified':verified and not dorm,'rateVerified':verified,'cancellation':rate.get('cancellation_type'),'cancellationUntil':rate.get('free_cancellation_until'),'mealPlan':rate.get('meal_plan'),'availabilityCount':rate.get('availability_count'),'url':u,'queriedAt':query['queriedAt'],'notes':'Quarto consultado para ocupação exata; estoque/taxas/pagamento a conferir.' if verified else f'Tarifa retornada com ocupação {occupancy}; pedida {query["guests"]}. Preço observado preservado separadamente e não aplicado ao orçamento.','conditionsKey':None}
+    q={**h,'id':uid('HRV3',a.batch,u,rate['price_total'],query['queriedAt']),'guests':query['guests'],'units':query['units'],'amount':rate['price_total'] if verified else None,'observedAmount':rate['price_total'],'returnedRateOccupancy':occupancy,'roomName':room['name'],'capacity':cap,'beds':room.get('bed_summary'),'facilities':facilities,'privacy':'Dormitório coletivo' if dorm else 'Unidade privativa','bathroom':bath,'privacyVerified':verified and not dorm,'rateVerified':verified,'cancellation':rate.get('cancellation_type'),'cancellationUntil':rate.get('free_cancellation_until'),'mealPlan':rate.get('meal_plan'),'availabilityCount':rate.get('availability_count'),'url':u,'queriedAt':query['queriedAt'],'notes':'Quarto consultado para ocupação exata; estoque/taxas/pagamento a conferir.' if verified else f'Tarifa retornada com ocupação {occupancy}; pedida {query["guests"]}. Preço observado preservado separadamente e não aplicado ao orçamento.','conditionsKey':None}
     hs.append(q);observe('lodging',q,pid)
  for query in flights:
   r=query.get('result',{});u=r.get('search_url');sid=source('Booking · voo',query['airport'],u,query['queriedAt'],'Busca I/V nova para o grupo; bagagem, segmentos e cobrança final pendentes.')
@@ -59,18 +60,21 @@ def main():
  for x in experiences:
   x['eventKey']=x['id'];x['id']=uid('EV3',a.batch,x['id']);x['batchId']=a.batch;x['conditionsKey']=None;x['sourceId']=source('Evento/experiência',x['name'],x.get('url'),x['queriedAt'],x.get('notes'));observe('experience',x,'event:'+x['eventKey'])
  # Old observations remain inspectable; they never acquire fabricated complete conditions.
- for h in old['lodgings']:observe('lodging',h,h['propertyId'])
- for p in old['transport']:observe('transport',p,p.get('terminal','')+'|'+str(p.get('guests')))
- for x in old['history']:
+ for h in ([] if a.incremental_history else old['lodgings']):observe('lodging',h,h['propertyId'])
+ for p in ([] if a.incremental_history else old['transport']):observe('transport',p,p.get('terminal','')+'|'+str(p.get('guests')))
+ for x in ([] if a.incremental_history else old['history']):
   if x.get('status')=='rejeitado':observations.append({**x,'entityType':'lodging','entityId':x.get('propertyName'),'quoteId':x['id'],'conditionsKey':None})
  priorindex=data/'snapshot-index.json'
- if priorindex.exists():
+ if priorindex.exists() and not a.incremental_history:
   for previous in load(priorindex):
    prior=data/'snapshots'/previous['id']/'observations.json'
    if previous['id']!=a.batch and prior.exists():observations.extend(load(prior))
  sources=list({x['id']:x for x in sources}.values());observations=list({x['id']:x for x in observations}.values())
  for q in hs:
   if q.get('amount') is None:q['priceStatus']='pendente'
+ if a.prefix=='p24':
+  from research_policy import enrich_run
+  hs,ps,experiences,observations=enrich_run(a.batch,hs,ps,experiences,observations,rooms,ground)
  outputs={'properties':list(newprops.values()),'lodgings':hs,'transport':ps,'transfers':ts,'experiences':experiences,'sources':sources,'ground':ground,'observations':observations}
  for name,value in outputs.items():
   p=folder/(name+'.json');content=json.dumps(safe(value),ensure_ascii=False,separators=(',',':'))
@@ -81,7 +85,7 @@ def main():
    target=folder/(name+'-'+str(n)+'.json');content=json.dumps([x for x in outputs[name] if x.get('guests')==n],ensure_ascii=False,separators=(',',':'))
    if target.exists() and target.read_text(encoding='utf-8')!=content:raise SystemExit('Immutable shard differs: '+str(target))
    target.write_text(content,encoding='utf-8')
- summary={'id':a.batch,'label':'Pesquisa Carnaval 2027 · 23/11/2026','queriedAt':max(x.get('queriedAt','') or '' for x in observations),'clientDate':'2026-11-23','counts':{n:len(v) for n,v in outputs.items()},'requests':{'lodging':len(hotel),'rooms':len(rooms),'flights':len(flights)},'roomRatesOccupancyVerified':sum(bool(x.get('rateVerified')) for x in hs),'pendingCompleteTrips':True,'preservedBaseSha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in data.glob('*.json') if p.name not in ['snapshot-index.json']},'photoPolicy':'Nenhuma foto de imóvel utilizada sem permissão de uso confirmada.'}
+ summary={'id':a.batch,'label':'Pesquisa Carnaval 2027 · '+a.client_date,'queriedAt':max(x.get('queriedAt','') or '' for x in observations),'clientDate':a.client_date,'counts':{n:len(v) for n,v in outputs.items()},'requests':{'lodging':len(hotel),'rooms':len(rooms),'flights':len(flights)},'roomRatesOccupancyVerified':sum(bool(x.get('rateVerified')) for x in hs),'pendingCompleteTrips':True,'preservedBaseSha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in data.glob('*.json') if p.name not in ['snapshot-index.json','research_runs.json','price_history.json','database.json','latest_prices.json']},'photoPolicy':'Nenhuma foto de imóvel utilizada sem permissão de uso confirmada.'}
  indexpath=data/'snapshot-index.json';index=load(indexpath) if indexpath.exists() else []
  if not any(x['id']==a.batch for x in index):index.append(summary)
  else:index=[summary if x['id']==a.batch else x for x in index]
