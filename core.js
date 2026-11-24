@@ -4,7 +4,7 @@ export const finite=v=>typeof v==='number'&&Number.isFinite(v)&&v>=0;
 export function utcDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(s||''))return null;const n=Date.parse(s+'T00:00:00Z');return Number.isFinite(n)&&new Date(n).toISOString().slice(0,10)===s?n:null}
 export function period(checkin,checkout){const a=utcDate(checkin),b=utcDate(checkout);if(a===null||b===null||b<=a)return {valid:false,nights:null,days:null};const nights=(b-a)/86400000;return {valid:true,nights,days:nights+1}}
 export function compatible(q,s,kind='lodging'){return q?.guests===s.n&&(kind==='lodging'?q.checkin===s.checkin&&q.checkout===s.checkout:q.departure===s.checkin&&q.return===s.checkout)&&period(s.checkin,s.checkout).valid}
-export function datedStatus(q,days=7,asOf=new Date().toISOString().slice(0,10)){if(!q)return 'pendente';const age=(utcDate(asOf)-utcDate(q.queriedAt))/86400000;if(utcDate(q.queriedAt)!==null&&age>days)return 'desatualizado';return q.status||'pendente'}
+export function datedStatus(q,days=7,asOf=new Date().toISOString().slice(0,10)){if(!q)return 'pendente';const queryDate=typeof q.queriedAt==='string'?q.queriedAt.slice(0,10):null;const age=(utcDate(asOf)-utcDate(queryDate))/86400000;if(utcDate(queryDate)!==null&&age>days)return 'desatualizado';return q.status||'pendente'}
 export function ledger(h,p,t,s){
  const per=period(s.checkin,s.checkout),hc=compatible(h,s),pc=compatible(p,s,'transport');const lines=[];
  const add=(key,label,amount,basis,status,note='')=>{lines.push({key,label,amount:finite(amount)?amount:null,basis,status:finite(amount)?status:'pendente',note,group:finite(amount)?amount*(basis==='person'?s.n:1):null})};

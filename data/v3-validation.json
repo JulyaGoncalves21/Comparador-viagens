@@ -1,0 +1,37 @@
+{
+  "version": "V3",
+  "checkedAt": "2026-11-24T03:16:24.781892+00:00",
+  "unitTestsPassed": 18,
+  "browserScenariosPassed": 15,
+  "browserRuntimeErrors": 0,
+  "preservedV2DataFiles": 24,
+  "newRecords": {
+    "lodgings": 1311,
+    "applicablePriceObservations": 883,
+    "verifiedRoomOccupancyRates": 111,
+    "transport": 656,
+    "flightOffers": 560,
+    "busDirectionSearches": 96,
+    "transfers": 52,
+    "experiences": 37,
+    "localGroundResearch": 328,
+    "normalizedPriceSnapshotsIncludingPrevious": 3999
+  },
+  "coverage": {
+    "destinations": 12,
+    "adultGroups": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "destinationGroupPairs": 48
+  },
+  "limitations": [
+    "Nenhuma viagem integral confirmada",
+    "Tarifas, estoques, taxas, bagagem e alocação exigem conferência",
+    "Não há pares com condições integralmente conhecidas para gráficos de variação",
+    "Tarifas de turismo2026 separadas de Carnaval2027",
+    "Imagens de imóveis sem permissão não utilizadas"
+  ]
+}

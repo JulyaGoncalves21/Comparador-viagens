@@ -1,3 +1,46 @@
+# ROTA27 V3 — pesquisa, viagens e experiências
+
+Publicado em https://julyagoncalves21.github.io/Comparador-viagens/ . A aplicação continua estática e usa caminhos relativos. Portfólio e projeto antigo não são alterados.
+
+## Pesquisa de 23/11/2026 (horário de Brasília)
+
+Foram realizadas 78 buscas válidas de hospedagem (quatro grupos, duas unidades para5/6 e Recife/Olinda separados),48 consultas a quartos e56 buscas aéreas I/V para2/3/5/6 adultos. Os registros estão em `data/snapshots/2026-11-23-v3/`:
+
+-1.311 observações de hospedagem: incluem preços exibidos, tarifas de quarto e48 consultas Airbnb sem total verificável.883 observações têm valor aplicável à ocupação consultada;111 tarifas de quarto tiveram o código de ocupação retornado compatível. Tarifas retornadas para outra ocupação têm valor observado separado e não entram no orçamento.
+-656 observações de transporte:560 ofertas aéreas e96 consultas rodoviárias por sentido. Ônibus sem total verificável continua pendente.
+-52 registros de transfer e328 registros de pesquisa terrestre/custos locais (incluem ônibus, Airbnb e referências de transporte). São consultas para fevereiro com valores finais pendentes; referências atuais ficam em campo separado.
+-37 eventos/experiências nos12 destinos, incluindo arquibancadas/cadeiras/frisas/camarotes do Rio, Série Ouro, abadás/camarotes de Salvador, circuitos gratuitos, atrações turísticas regulares e programação não divulgada. Frisa de seis lugares é pacote inteiro, não preço de assento.
+-3.999 snapshots normalizados, incluindo o histórico anterior. Datas e horas UTC são preservadas. HTTP200 não significa estoque, preço final ou disponibilidade.
+
+As taxas, pagamento, bagagem e parte da programação ainda precisam de conferência. Nenhuma viagem integral foi declarada confirmada. Preços turísticos atuais de2026 podem ser usados somente como referência simulada, com rótulo próprio; não são ingressos confirmados do Carnaval2027. Shows fora das datas permanecem separados.
+
+## Interface e cálculos
+
+As sete telas seguem o HTML aprovado: Visão geral, Explorar destinos, Hospedagens, Montar viagem, Comparar, Histórico e Dados/fontes. CSS e ilustrações de destinos foram extraídos do conceito; nenhum preço demonstrativo foi importado. Ilustrações não são fotos de imóveis. Sem permissão de imagem confirmada, hospedagens usam placeholder identificado.
+
+DM Sans e Instrument Serif são hospedadas em `assets/fonts/`, com as respectivas licenças SIL Open Font License. Origem dos arquivos: repositório oficial google/fonts.
+
+Hospedagem, tarifa, passagem e transfer são escolhas independentes. Experiências oficiais ou manuais usam preço unitário × quantidade, somam ao grupo e dividem pelo grupo uma única vez. A contingência é aplicada uma vez ao acréscimo. Moeda estrangeira sem conversão documentada, data incompatível, preço ausente e taxas desconhecidas ficam pendentes. O usuário pode comprar apenas alguns ingressos; quantidade não é presumida após edição.
+
+Favoritos, cotações manuais, preferências e experiências são locais ao navegador. A exportação JSON inclui as bases completas e os snapshots, a importação valida cotações/experiências locais. O limite é50MB. A versão não promete sincronização automática nem consulta de preços em tempo real.
+
+## Atualização reproduzível e preservação
+
+1. Faça consultas reais para as datas/ocupações desejadas. Salve as respostas estruturadas e evidências nos arquivos de entrada documentados em `scripts/import_research_v3.py`. Não use o HTML conceitual como fonte de valores.
+2. Execute `python scripts/import_research_v3.py --input-dir PASTA --batch NOVO_ID`. Use um identificador novo por rodada. O importador recusa alterar um snapshot existente com conteúdo diferente e cria automaticamente os arquivos por grupo.
+3. Execute `python scripts/validate_snapshots.py` e os testes. Revise preços, URLs, país/identidade, ocupação dos códigos de tarifa, condições, taxas e pendências. Nenhum valor anterior é sobrescrito.
+4. Faça commit/push apenas neste repositório e aguarde o workflow Pages. Confirme o site público.
+
+Entradas: `v3_hospedagens_completas_raw.json`, `v3_quartos_raw.json`, `v3_voos_raw.json`, `v3_eventos_pesquisa.json`, `v3_terrestre_pesquisa.json`. São respostas de pesquisa, não exemplos a preencher com valores estimados. Os arquivos brutos locais não são publicados. Caminhos locais são removidos sem alterar URLs HTTPS.
+
+`snapshot-index.json` referencia cada rodada. Hospedagens e transportes são carregados por grupo, com índices reutilizados; observações, fontes, eventos e bases completas são carregados por demanda. Histórico só calcula variação com condições conhecidas e equivalentes. Condições ausentes nunca são consideradas iguais; no estado atual não há pares integralmente comprovados para desenhar uma tendência, embora todas as observações permaneçam visíveis.
+
+Validação: `node --test tests/core.test.mjs tests/v3.test.mjs` e `python tests/v3-smoke.py --url URL`. A opção `--production` faz uma checagem reduzida da publicação. Os testes V1/V2 anteriores permanecem arquivados para referência; seus seletores de layout não descrevem as sete telas novas.
+
+---
+
+Documentação V2 preservada abaixo:
+
 # ROTA27 V2 — Comparador de viagens
 
 Aplicação independente. A versão anterior e o portfólio não são alterados.
